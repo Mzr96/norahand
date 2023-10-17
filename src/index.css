@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Vazirmatn-Medium.woff2");
+}
+
+@font-face {
+  font-family: "farsinum";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./assets/fonts/Vazirmatn-FD-Medium.woff2");
+}
+* {
+  @apply scrollbar-thin scrollbar-thumb-rounded-lg scrollbar-track-white scrollbar-thumb-gray-300;
+}
+
+@layer utilities {
+  .active {
+    @apply bg-gradient-to-l from-blue-600 to-blue-300 text-white;
+  }
+}
+
+.ag-header-cell-label {
+  justify-content: center;
+}
+
+.ag-theme-alpine {
+  --ag-font-family: "farsinum" !important;
+}

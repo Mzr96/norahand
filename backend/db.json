@@ -1,0 +1,67 @@
+{
+  "user": {
+    "id": 104,
+    "firstName": "رضا",
+    "lastName": "رضایی",
+    "profilePic": "/api/test/img/profile.jpg"
+  },
+  "order-history": {
+    "status": 200,
+    "result": [
+      {
+        "id": "123",
+        "title": "هدفون ریمکس طرح iPod 2",
+        "price": "7600000 R",
+        "purchaseDate": "2023-07-12 13:00:02",
+        "status": "failed"
+      },
+      {
+        "id": "345",
+        "title": "میز خیاطی ایران‌دوخت",
+        "price": "9500000 R",
+        "purchaseDate": "2023-08-10 14:45:56",
+        "status": "success"
+      },
+      {
+        "id": "674",
+        "title": "ساعت دیواری طرح نو رهند",
+        "price": "3400000 R",
+        "purchaseDate": "2023-09-14 14:57:36",
+        "status": "success"
+      },
+      {
+        "id": "575",
+        "title": "ست اداری میترا",
+        "price": "7340000 R",
+        "purchaseDate": "2023-10-12 07:56:12",
+        "status": "success"
+      },
+      {
+        "id": "235",
+        "title": "ساندویچ ماکارانی",
+        "price": "4500000 R",
+        "purchaseDate": "2023-10-13 14:57:11",
+        "status": "success"
+      },
+      {
+        "id": "367",
+        "title": "شارژر دیواری سامسونگ",
+        "price": "7500000 R",
+        "purchaseDate": "2023-10-14 18:36:42",
+        "status": "readyToPay"
+      }
+    ]
+  },
+  "order-detail": {
+    "status": 200,
+    "result": {
+      "id": "367",
+      "title": "شارژر دیواری سامسونگ",
+      "price": "7500000 R",
+      "weight": "123 gr",
+      "cable": "Usb Type-C",
+      "extVolt": "5V",
+      "picture": "/api/test/img/367.jpg"
+    }
+  }
+}
