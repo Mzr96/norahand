@@ -12,7 +12,6 @@ export default {
       readyToPay: "",
     };
     const statusTag = statusTypeMap[props.params.value];
-    console.log(props.params.value);
     const displayStatus = statusMap[props.params.value];
     return {
       displayStatus,

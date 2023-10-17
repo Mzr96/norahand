@@ -36,7 +36,7 @@ const actionColDef = {
 };
 const weightColDef = {
   field: "weight",
-  headerName: "وزن (گرم)",
+  headerName: "وزن",
   valueFormatter: (params) => Formatter.weightFormatter(params.value),
 };
 const cableColDef = {
